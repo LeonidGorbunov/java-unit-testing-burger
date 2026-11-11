@@ -25,5 +25,5 @@
 
 ### 📊 Интерактивный отчёт о покрытии (JaCoCo) и CI/CD
 
-* **Отчёт JaCoCo (100% покрытие):** [Открыть JaCoCo Report на GitHub Pages](https://leonidgorbunov.github.io/java-unit-testing-burger/)
+* **Отчёт JaCoCo (100% покрытие класса `Burger`):** [Открыть JaCoCo Report на GitHub Pages](https://leonidgorbunov.github.io/java-unit-testing-burger/)
 * **Автоматический прогон в облаке:** в репозиторий интегрирован пайплайн [GitHub Actions](.github/workflows/tests.yml), выполняющий `mvn clean test jacoco:report` на JDK 11 с публикацией HTML-отчёта в ветку `gh-pages`.
