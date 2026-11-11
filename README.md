@@ -1,3 +1,5 @@
+[![Unit Tests & JaCoCo Coverage](https://github.com/LeonidGorbunov/java-unit-testing-burger/actions/workflows/tests.yml/badge.svg)](https://github.com/LeonidGorbunov/java-unit-testing-burger/actions/workflows/tests.yml)
+[![Allure Report](https://img.shields.io/badge/Allure%20Report-Live-brightgreen)](https://leonidgorbunov.github.io/java-unit-testing-burger/)
 # Java Unit Testing Burger Project
 
 **Контекст и цели проекта**: разработка изолированных модульных тестов для верификации калькуляции стоимости, структуры чеков и внутренней логики списков сборной модели данных.
@@ -20,3 +22,8 @@
 
 ### Метрика тестового покрытия JaCoCo (100% Coverage Verification)
 ![JaCoCo Code Coverage Report](jacoco-coverage.png)
+
+### 📊 Интерактивный отчёт о покрытии (JaCoCo) и CI/CD
+
+* **Отчёт JaCoCo (100% покрытие):** [Открыть JaCoCo Report на GitHub Pages](https://leonidgorbunov.github.io/java-unit-testing-burger/)
+* **Автоматический прогон в облаке:** в репозиторий интегрирован пайплайн [GitHub Actions](.github/workflows/tests.yml), выполняющий `mvn clean test jacoco:report` на JDK 11 с публикацией HTML-отчёта в ветку `gh-pages`.
