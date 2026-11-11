@@ -1,5 +1,5 @@
 [![Unit Tests & JaCoCo Coverage](https://github.com/LeonidGorbunov/java-unit-testing-burger/actions/workflows/tests.yml/badge.svg)](https://github.com/LeonidGorbunov/java-unit-testing-burger/actions/workflows/tests.yml)
-[![Allure Report](https://img.shields.io/badge/Allure%20Report-Live-brightgreen)](https://leonidgorbunov.github.io/java-unit-testing-burger/)
+[![JaCoCo Coverage](https://img.shields.io/badge/JaCoCo-100%25-brightgreen)](https://leonidgorbunov.github.io/java-unit-testing-burger/)
 # Java Unit Testing Burger Project
 
 **Контекст и цели проекта**: разработка изолированных модульных тестов для верификации калькуляции стоимости, структуры чеков и внутренней логики списков сборной модели данных.
