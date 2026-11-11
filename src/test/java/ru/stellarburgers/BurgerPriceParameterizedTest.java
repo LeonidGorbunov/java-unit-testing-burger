@@ -1,4 +1,4 @@
-package praktikum;
+package ru.stellarburgers;
 
 import org.junit.Before;
 import org.junit.Rule;
